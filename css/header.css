@@ -1,0 +1,101 @@
+.header {
+  height: 98px;
+  background-color: #eee;
+}
+
+.header .container {
+  height: 100%;
+}
+
+.header-main {
+  height: 100%;
+}
+
+.header .menu {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.header .menu-list {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.header .menu-item {
+  display: flex;
+  align-items: center;
+  margin-right: 32px;
+}
+
+.header .menu-item ion-icon {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.header .menu-item a {
+  font-weight: 500;
+  font-size: 25px;
+  color: #032f4a;
+  text-transform: uppercase;
+}
+
+.header .menu-logo {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.header .menu-contact {
+  display: flex;
+  align-items: center;
+}
+
+.header .contact-phone {
+  margin-right: 50px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.header .contact-info {
+  width: 160px;
+  height: 40px;
+  border-radius: 20px;
+  border: 1px solid #888;
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  font-size: 18px;
+  justify-content: space-evenly;
+}
+
+.tab-header {
+  height: 85px;
+  background-color: #032f4a;
+}
+
+.tab-header .container {
+  height: 100%;
+  width: 1500px;
+}
+
+.tab-header .list-tab {
+  font-size: 22px;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #888;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.tab-header .list-tab .tab-item {
+  display: flex;
+  align-items: center;
+}
+
+.tab-header .list-tab .tab-item a {
+  color: #888;
+}
