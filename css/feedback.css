@@ -1,0 +1,238 @@
+.feedback-list .feedback-item {
+  width: 479px;
+  height: 410px;
+  padding: 30px;
+  position: relative;
+}
+
+.feedback-list .feedback-item .info-user {
+  display: flex;
+  justify-content: space-between;
+}
+
+.feedback-list .feedback-item .info-user .avatar {
+  width: 64px;
+  height: 64px;
+  background-color: #2b2b2b;
+  border-radius: 50%;
+}
+.feedback-list .feedback-item .info-user .name {
+  font-size: 25px;
+  font-weight: 500;
+  margin-top: 11px;
+}
+
+.feedback-list .feedback-item .info-user .start {
+  font-size: 32px;
+}
+
+.feedback-list .feedback-item .car {
+  margin-top: 38px;
+  font-size: 18px;
+}
+
+.feedback-list .feedback-item .comment {
+  margin-top: 16px;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.feedback-list .feedback-item time {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #888888;
+}
+
+.search {
+  margin-top: 98px;
+}
+
+.search .container {
+  width: 1206px;
+}
+select {
+  -webkit-appearance: none;
+}
+
+.search-input {
+  display: flex;
+  justify-content: space-between;
+}
+
+.search-input label {
+  width: 579px;
+  height: 80px;
+  border: 1px solid #4a4a4a;
+  border-radius: 15px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.search-input label input,
+.search-input label select {
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.search-input label ion-icon {
+  font-size: 30px;
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.list-car .title {
+  font-size: 54px;
+  font-weight: 500;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.list-car .tab-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 42px;
+  text-align: center;
+}
+
+.list-car .tab-list .tab-item {
+  font-size: 28px;
+  font-weight: 700;
+  color: #032f4a;
+  padding: 0 19px;
+  cursor: pointer;
+}
+
+.list-car .tab-list .tab-item.active {
+  color: red;
+}
+
+.list-car .tab-list .tab-item:not(.list-car .tab-list .tab-item:last-child) {
+  border-right: 2px solid #032f4a;
+}
+
+.list-car .list-car-img {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 470px 470px 470px 470px;
+  gap: 4px;
+  margin-top: 57px;
+}
+
+.list-car .list-car-img .car-item {
+  position: relative;
+}
+
+.list-car .list-car-img .car-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.list-car .list-car-img .car-item p {
+  position: absolute;
+  font-size: 60px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: white;
+  top: 47px;
+  left: 60px;
+}
+
+.list-car .list-car-img .car-item:first-child {
+  grid-row: 1 / 3;
+  grid-column: 1 / 2;
+}
+
+.service-car {
+  background-color: #eeeeee;
+}
+
+.service-car .container {
+  width: 1172px;
+}
+
+.service-car .title {
+  padding-top: 90px;
+  font-size: 54px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.service-car .slogan {
+  font-size: 28px;
+  font-weight: 700;
+  color: #888888;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.service-car .list-box-service {
+  margin-top: 124px;
+  display: flex;
+  flex-direction: column;
+}
+
+.service-car .list-box-service .box-service-item {
+  width: 100%;
+  height: 579px;
+  position: relative;
+  background-color: white;
+  margin-bottom: 118px;
+}
+
+.service-car .list-box-service .box-service-item:nth-child(odd) .top img {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.service-car .list-box-service .box-service-item:nth-child(even) .top img {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.service-car .list-box-service .box-service-item .top img:nth-child(2) {
+  height: 431px;
+}
+
+.service-car .list-box-service .box-service-item .button {
+  position: absolute;
+  text-align: center;
+  font-weight: 900;
+  font-size: 46px;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: "#032F4A";
+}
+
+.service-car .list-box-service .box-service-item:nth-child(odd) .content {
+  position: absolute;
+  width: 219px;
+  top: 125px;
+  right: 16px;
+  font-weight: 400;
+  font-size: 21px;
+  color: white;
+}
+.service-car .list-box-service .box-service-item:nth-child(even) .content {
+  position: absolute;
+  width: 219px;
+  top: 125px;
+  left: 16px;
+  font-weight: 400;
+  font-size: 21px;
+  color: white;
+}

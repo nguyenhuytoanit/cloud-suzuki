@@ -1,0 +1,61 @@
+.footer {
+  background-color: #032f4a;
+}
+
+.footer-column {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  padding-top: 40px;
+}
+
+.footer-column .name {
+  font-weight: 700;
+  font-size: 28px;
+  margin-bottom: 18px;
+}
+
+.footer-column .store-name > .name {
+  text-align: center;
+}
+.footer-column span {
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.footer-column .showroom {
+  width: 290px;
+}
+
+.footer-column .showroom .location {
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.footer-column .contact {
+  width: 259px;
+}
+
+.footer-column .contact .contact-content {
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.footer-column .store .content {
+  line-height: 25px;
+  font-size: 18px;
+}
+
+.footer-column .group img {
+  border-radius: 10px;
+}
+
+.footer-bottom {
+  text-align: center;
+  color: white;
+  margin-top: 42px;
+  font-size: 14px;
+  font-weight: 400;
+  padding-bottom: 11px;
+}
