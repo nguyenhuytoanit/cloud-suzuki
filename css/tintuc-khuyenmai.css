@@ -1,0 +1,86 @@
+.infomation-container {
+  margin-top: 68px;
+}
+
+.infomation-container .header-infomation > h1 {
+  color: #032f4a;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 84px;
+}
+
+.infomation-container .header-infomation > p {
+  font-size: 28px;
+  line-height: 70px;
+  color: #e21f26;
+}
+
+.infomation-container .content-infomation > p {
+  font-size: 24px;
+  line-height: 42px;
+  color: #000000;
+  margin-bottom: 54px;
+}
+
+.infomation-container .content-infomation > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin-bottom: 54px;
+}
+
+.info-userCmt {
+  margin-top: 97px;
+}
+.info-userCmt > h1 {
+  font-size: 42px;
+  line-height: 42px;
+  color: #032f4a;
+  text-transform: uppercase;
+}
+.info-userCmt .box-userInfo {
+  margin: 50px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.info-userCmt .box-userInfo p {
+  font-size: 32px;
+  line-height: 38px;
+  color: #032f4a;
+}
+
+.info-userCmt .box-userInfo .label-info {
+  font-size: 28px;
+  line-height: 33px;
+  color: #032f4a;
+  margin-bottom: 25px;
+}
+.info-userCmt .box-userInfo .info-car > select {
+  width: 604px;
+  padding: 13px 0;
+  font-size: 32px;
+  line-height: 38px;
+  color: #032f4a;
+  border: none;
+  border-bottom: 1px solid #032f4a;
+}
+.comment-content > .label-info {
+  font-size: 28px;
+  line-height: 33px;
+  color: #032f4a;
+  margin-bottom: 25px;
+}
+
+.comment-content > textarea {
+  width: 100%;
+  height: 342px;
+  margin-bottom: 63px;
+}
+.comment-list {
+  list-style: none;
+}
+.comment-list > .feedback-item {
+  width: 100%;
+  border-top: 1px solid #707070;
+}
