@@ -1,0 +1,98 @@
+@media screen and (max-width: 1366px) {
+  .warranty-maintenance .left {
+    width: 65%;
+    margin: 0 5%;
+  }
+  .warranty-maintenance .right {
+    width: 25%;
+    right: 35px;
+  }
+  .warranty-maintenance .left .list-tab .tab-item {
+    height: 124px;
+  }
+  .warranty-maintenance .left .list-tab .tab-item p {
+    font-size: 13px;
+  }
+  .warranty-maintenance .left .tab-content .intro {
+    font-size: 17px;
+  }
+  .warranty-maintenance .left .content-warranty h4{
+      font-size: 18px;
+  }
+  .warranty-maintenance .left .content-warranty p{
+      font-size: 17px;
+  }
+  .slice-list-car .swiper-slide{
+      width: 60%;
+  }
+}
+@media screen and (max-width: 1080px) {
+  .warranty-maintenance .right {
+    display: none;
+  }
+  .warranty-maintenance .left {
+    width: 100%;
+  }
+  .warranty-maintenance .left .list-tab .tab-item {
+    width: 23%;
+  }
+  .warranty-maintenance .left .list-tab .tab-item > img {
+    width: 21%;
+  }
+  .warranty-maintenance .left .list-tab .tab-item p {
+    font-size: 15px;
+  }
+  .warranty-maintenance .left {
+    margin: 0 5%;
+  }
+  .slice-list-car .swiper-slide {
+    width: 50%;
+  }
+  .news {
+    margin: 0 5%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+    .slice-list-car .swiper-slide{
+        width: 100%;
+    }
+    .warranty-maintenance .left .table-content .title{
+        font-size: 17px;
+    }
+
+    .warranty-maintenance .left .table-content p{
+        font-size: 16px;
+    }
+    .warranty-maintenance .left .list-tab .tab-item p{
+        font-size: 11px;
+    }
+    .news .title{
+        font-size: 25px;
+    }
+    .news .content{
+        font-size: 20px;
+    }
+    .warranty-maintenance .left .list-tab{
+        flex-wrap: wrap;
+    }
+    .warranty-maintenance .left .list-tab .tab-item{
+        width: 48%;
+        margin: 1%;
+    }
+    .products-interface .menu-product-interface > li{
+        font-size: 12px;
+    }
+    .warranty-maintenance .left .title{
+        font-size: 20px;
+    }
+    .product-interface-content .product-items .product-result{
+        width: 100%;
+    }
+    .news .content p{
+        font-size: 14px;
+    }
+    .indent > .commit{
+        font-size: 17px;
+    }
+}

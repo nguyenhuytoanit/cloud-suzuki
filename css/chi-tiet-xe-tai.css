@@ -1,0 +1,415 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+/* <!-- THÔNG SỐ KỸ THUẬT --> */
+
+.specifications-container > h1 {
+  font-size: 39px;
+  margin-bottom: 30px;
+}
+.specifications-container {
+  background: #eeeeee;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 75px;
+}
+
+.specifications-container .specification-menu {
+  width: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.specifications-container .specification-options {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.specifications-container .specification-options > a {
+  font-weight: 500;
+  border-left: 2px solid #000;
+  padding: 0 19px;
+  padding-bottom: 5px;
+  color: #000;
+  font-size: 18px;
+  text-decoration: none;
+}
+.specifications-container .specification-options > a:hover {
+  color: #e21f26;
+}
+
+.specifications-container .specification-options > a.active {
+  color: #e21f26;
+  text-decoration: underline;
+}
+
+.specifications-container .specification-options > a:nth-child(1) {
+  border: none;
+  padding-right: 19px;
+}
+
+.specifications-container .specification-info {
+  width: 55%;
+  background: #fff;
+  border-radius: 5px;
+  padding: 0 10px;
+  list-style: none;
+  padding-bottom: 400px;
+  display: none;
+}
+
+.specifications-container .specification-info.active-content {
+  display: block;
+}
+.specifications-container .specification-info > li {
+  display: flex;
+  border-bottom: 1px solid #000;
+  padding: 10px 0;
+}
+.specifications-container .specification-info > li.center-content {
+  align-items: center;
+}
+
+.specifications-container .specification-info > li > p {
+  width: 30%;
+}
+.specifications-container .specification-info > li > .sub-info {
+  width: 100%;
+  padding-left: 10px;
+  border-left: 1px solid #000;
+}
+
+.specifications-container .specification-info > li > .sub-info > li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #000;
+}
+
+.specifications-container .specification-info > li > .sub-info > li > span {
+  border-left: 1px solid #000;
+  padding-left: 40px;
+}
+
+.specifications-container
+  .specification-info
+  > li
+  > .sub-info
+  > li:nth-last-child(-n + 1) {
+  border-bottom: none;
+}
+
+/*  <!-- CHUYÊN CHỞ NHIỀU HƠN --> */
+.transport-vehicle {
+  background: #032f4a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 120px;
+}
+.transport-vehicle > h1 {
+  font-size: 39px;
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 100px;
+}
+
+.transport-vehicle .transportVehicle-container {
+  width: 100%;
+}
+
+.transport-vehicle .transportVehicle-container .transportVehicle-info {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 150px;
+}
+.transport-vehicle
+  .transportVehicle-container
+  .transportVehicle-info
+  .transportVehicle-thumbail {
+  width: 50%;
+}
+
+.transport-vehicle
+  .transportVehicle-container
+  .transportVehicle-info
+  .transportVehicle-thumbail
+  > .img {
+  position: relative;
+}
+
+.transport-vehicle
+  .transportVehicle-container
+  .transportVehicle-info
+  .transportVehicle-thumbail
+  > div.img
+  > img {
+  width: 100%;
+  min-height: 100px;
+  object-fit: cover;
+}
+.transport-vehicle
+  .transportVehicle-container
+  .transportVehicle-info
+  .transportVehicle-thumbail
+  > .img::before {
+  content: "";
+  position: absolute;
+  top: 8%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 85%;
+  height: 100%;
+  border: 3px solid #fff;
+}
+.transport-vehicle
+  .transportVehicle-container
+  .transportVehicle-info
+  .transportVehicle-thumbail
+  .thumbail-description {
+  width: 85%;
+  margin-top: 100px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.transport-vehicle
+  .transportVehicle-container
+  .transportVehicle-info
+  .transportVehicle-thumbail
+  .thumbail-description
+  > h1 {
+  color: #fff;
+  font-weight: bold;
+  font-size: 39px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.transport-vehicle
+  .transportVehicle-container
+  .transportVehicle-info
+  .transportVehicle-thumbail
+  .thumbail-description
+  .sub-description {
+  list-style: none;
+  font-size: 39px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.transport-vehicle
+  .transportVehicle-container
+  .transportVehicle-info
+  .transportVehicle-thumbail
+  .thumbail-description
+  .sub-description
+  > li {
+  width: 85%;
+  background: #fff;
+  margin-bottom: 15px;
+  padding: 3px;
+  color: #032f4a;
+}
+
+.transport-vehicle
+  .transportVehicle-container
+  .transportVehicle-info
+  .transportVehicle-content {
+  color: #fff;
+  width: 50%;
+}
+
+.transport-vehicle
+  .transportVehicle-container
+  .transportVehicle-info
+  .transportVehicle-content
+  .sub-content-des
+  > h2 {
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.transport-vehicle
+  .transportVehicle-container
+  .transportVehicle-info
+  .transportVehicle-content
+  .sub-content-des
+  > p:nth-child(1) {
+  text-transform: uppercase;
+}
+
+.transport-vehicle
+  .transportVehicle-container
+  .transportVehicle-info
+  .transportVehicle-content
+  > h2 {
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+.transport-vehicle
+  .transportVehicle-container
+  .transportVehicle-info
+  .transportVehicle-content
+  > h3 {
+  text-transform: uppercase;
+  font-weight: 400;
+}
+.transport-vehicle
+  .transportVehicle-container
+  .transportVehicle-info
+  .transportVehicle-content
+  > .sub-content {
+  margin-top: 200px;
+}
+
+.transportVehicle-content-ver {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.transportVehicle-content-ver .sub-content-des-boder {
+  color: #fff;
+  font-size: 30px;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.transportVehicle-content-ver .sub-content-des-boder::after {
+  content: "";
+  position: absolute;
+  width: 130%;
+  border: 3px solid #fff;
+  left: 110%;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 5px;
+}
+.transportVehicle-thumbail > .img-center {
+  width: 120%;
+  min-height: 400px;
+  object-fit: cover;
+}
+.transportVehicle-thumbail > .img-center > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/*   <!-- MẪU XE LIÊN QUAN --> */
+
+.cars-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+}
+
+.cars-container > h1 {
+  font-size: 39px;
+  text-transform: uppercase;
+  margin-bottom: 100px;
+}
+
+.cars-container > ul.car-list {
+  width: 100%;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.cars-container > .car-list .car-item {
+  margin-bottom: 100px;
+}
+.cars-container > .car-list .car-item > img {
+  width: 400px;
+  object-fit: cover;
+}
+
+.cars-container > .car-list .car-item .car-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 5px;
+  font-size: 18px;
+  position: relative;
+}
+
+.cars-container > .car-list .car-item .car-info::after {
+  content: "";
+  position: absolute;
+  width: 55%;
+  height: 3px;
+  background: #000;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/*  */
+.btn-red {
+  background: #e21f26;
+  color: #fff;
+  padding: 13px 54px;
+  font-size: 18px;
+  border-radius: 66px;
+  border: none;
+  outline: none;
+  margin-right: 28px;
+}
+
+.btn-dark {
+  background: #032f4a;
+  color: #fff;
+  padding: 13px 54px;
+  font-size: 18px;
+  border-radius: 66px;
+  border: none;
+  outline: none;
+}
+
+.bordered-none {
+  border: none !important;
+}
+
+.padding-content-right {
+  padding-right: 100px;
+}
+
+.padding-content-left {
+  padding-left: 100px;
+}
+
+.center-end-horizotal {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.column-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 !important;
+}

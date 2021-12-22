@@ -1,0 +1,80 @@
+.rollling-price-popup {
+  position: absolute;
+  width: 150%;
+  z-index: 100;
+  background: #032f4a;
+  border-radius: 40px;
+  top: -431px;
+  text-align: center;
+  color: #fff;
+  padding: 30px;
+  display: none;
+}
+
+.rollling-price-popup.active {
+  display: block;
+}
+
+.rollling-price-popup .popup-content {
+  position: relative;
+}
+
+.rollling-price-popup .title {
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.rollling-price-popup .select-group {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+.rollling-price-popup .select-group .label {
+  font-size: 20px;
+}
+
+.rollling-price-popup .select-group select {
+  width: 100%;
+  background: none;
+  border: none;
+  border-bottom: 1px solid #fff;
+  padding: 20px;
+  color: #fff;
+  cursor: pointer;
+}
+.rollling-price-popup p {
+  color: #ffffff;
+  margin-bottom: 25px;
+}
+.rollling-price-popup h2 {
+  margin-bottom: 20px;
+}
+
+.rollling-price-popup button {
+  background: #e21f26;
+  color: #fff;
+  width: 45%;
+  padding: 15px 0;
+  border: none;
+  border-radius: 41px;
+  text-transform: uppercase;
+}
+
+.rollling-price-popup > button.btn-close {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #032f4a;
+  border-radius: 50%;
+  top: 0;
+  right: -8%;
+}
+
+.btn-popup {
+  cursor: pointer;
+}

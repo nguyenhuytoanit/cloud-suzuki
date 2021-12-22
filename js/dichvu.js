@@ -15,10 +15,11 @@ tabItems.forEach((tabItem, index) => {
   });
 });
 
+//
 const optionItems = document.querySelectorAll(".option-item");
 const contentOptions = document.querySelectorAll(".content-info");
 
-optionItems.forEach((optionItem,index) => {
+optionItems.forEach((optionItem, index) => {
   optionItem.addEventListener("click", () => {
     optionItems.forEach((optionItem) => {
       optionItem.classList.remove("active");
@@ -28,5 +29,23 @@ optionItems.forEach((optionItem,index) => {
     });
     optionItem.classList.add("active");
     contentOptions[index].classList.add("active-content");
+  });
+});
+
+//
+const menuItems = document.querySelectorAll(".menu-product-interface > li");
+const contentMenu = document.querySelectorAll(".product-interface-content");
+
+menuItems.forEach((menuItem, index) => {
+  menuItem.addEventListener("click", () => {
+    menuItems.forEach((menuItem, index) => {
+      menuItem.classList.remove("active-option");
+    });
+    contentMenu.forEach((tabContent, index) => {
+      tabContent.classList.remove("active-products");
+    });
+
+    menuItem.classList.add("active-option");
+    contentMenu[index].classList.add("active-products");
   });
 });

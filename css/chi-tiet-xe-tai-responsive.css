@@ -1,0 +1,116 @@
+@media screen and (max-width: 1080px) {
+  .specifications-container .specification-menu {
+    width: 80%;
+  }
+  .specifications-container .specification-options {
+    width: 111%;
+  }
+  .specifications-container .specification-info {
+    width: 100%;
+  }
+  .transport-vehicle
+    .transportVehicle-container
+    .transportVehicle-info
+    .transportVehicle-thumbail
+    .thumbail-description
+    > h1 {
+    font-size: 31px;
+  }
+  .transport-vehicle
+    .transportVehicle-container
+    .transportVehicle-info
+    .transportVehicle-thumbail
+    .thumbail-description
+    .sub-description {
+    font-size: 20px;
+  }
+  .transportVehicle-content-ver .sub-content-des-boder {
+    font-size: 26px;
+  }
+  .transport-vehicle {
+    padding: 120px 33px;
+  }
+
+  .transport-vehicle
+    .transportVehicle-container
+    .transportVehicle-info
+    .transportVehicle-content {
+    padding-left: 30px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .specifications-container > h1 {
+    font-size: 30px;
+  }
+  .transportVehicle-content-ver .sub-content-des-boder {
+    font-size: 24px;
+  }
+  .btn-red {
+    font-size: 13px;
+  }
+  .specifications-container .specification-options > a {
+    font-size: 14px;
+  }
+  .content-info .specification-info {
+    font-size: 14px;
+  }
+  .specifications-container .specification-menu {
+    width: 100%;
+  }
+  .specifications-container {
+    padding: 30px;
+  }
+  .transport-vehicle
+    .transportVehicle-container
+    .transportVehicle-info
+    .transportVehicle-content
+    > h3 {
+    font-size: 15px;
+  }
+  .transport-vehicle
+    .transportVehicle-container
+    .transportVehicle-info
+    .transportVehicle-thumbail
+    .thumbail-description
+    > h1 {
+    font-size: 25px;
+  }
+  .transport-vehicle .transportVehicle-container .transportVehicle-info {
+    flex-wrap: wrap;
+  }
+  .specifications-container .specification-options {
+    flex-wrap: wrap;
+  }
+  .specifications-container .specification-options > a {
+    margin-bottom: 10px;
+  }
+  .btn-dark {
+    font-size: 13px;
+  }
+  .transport-vehicle
+    .transportVehicle-container
+    .transportVehicle-info
+    .transportVehicle-thumbail {
+    width: 100%;
+  }
+  .transport-vehicle
+    .transportVehicle-container
+    .transportVehicle-info
+    .transportVehicle-content {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .specifications-container .specification-menu {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  .btn-red {
+    margin-bottom: 10px;
+  }
+  .specifications-container .specification-options {
+    justify-content: flex-start;
+  }
+}

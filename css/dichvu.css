@@ -1,5 +1,5 @@
 .service .container {
-  width: 1500px;
+  max-width: 1500px;
 }
 
 .warranty-maintenance {
@@ -8,14 +8,14 @@
 }
 
 .warranty-maintenance .left {
-  width: 1192px;
+  width: 80%;
 }
 
 .warranty-maintenance .right {
   position: absolute;
   right: -140px;
   top: 205px;
-  width: 420px;
+  width: 28%;
   height: 522px;
   border-radius: 40px;
   background-color: #032f4a;
@@ -33,7 +33,7 @@
   height: 30%;
   background-color: #e21f26;
   color: white;
-  font-size: 28px;
+  font-size: 20px;
   font-weight: 700;
   text-align: center;
   padding-top: 30px;
@@ -48,13 +48,13 @@
 .warranty-maintenance .right .bottom p {
   text-transform: uppercase;
   color: white;
-  font-size: 18px;
+  font-size: 15px;
   margin-bottom: 19px;
   margin-left: 30px;
 }
 
 .warranty-maintenance .left .title {
-  font-size: 60px;
+  font-size: 30px;
   font-weight: 500;
   text-transform: uppercase;
   text-align: center;
@@ -68,13 +68,17 @@
 }
 
 .warranty-maintenance .left .list-tab .tab-item {
-  width: 286px;
+  width: 24%;
   height: 177px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   background-color: #032f4a;
+}
+
+.warranty-maintenance .left .list-tab .tab-item > img {
+  width: 23%;
 }
 
 .warranty-maintenance .left .list-tab .tab-item:hover {
@@ -84,7 +88,7 @@
 .warranty-maintenance .left .list-tab .tab-item p {
   text-transform: uppercase;
   color: white;
-  font-size: 23px;
+  font-size: 20px;
   font-weight: 300;
   margin-top: 20px;
 }
@@ -94,7 +98,7 @@
 }
 
 .warranty-maintenance .left .tab-content .intro {
-  font-size: 28px;
+  font-size: 20px;
   font-weight: 400;
   margin-top: 80px;
 }
@@ -104,7 +108,7 @@
 }
 
 .warranty-maintenance .left .table-content {
-  width: 890px;
+  width: 100%;
   height: 513px;
   border-radius: 40px;
   background-color: #032f4a;
@@ -115,7 +119,7 @@
 .warranty-maintenance .left .table-content .title {
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 28px;
+  font-size: 30px;
   padding-top: 39px;
 }
 
@@ -123,7 +127,7 @@
   margin-top: 20px;
   margin-left: 83px;
   font-weight: 500;
-  font-size: 24px;
+  font-size: 20px;
 }
 
 .warranty-maintenance .left .tab-content {
@@ -135,13 +139,13 @@
 }
 
 .warranty-maintenance .left .content-warranty h4 {
-  font-size: 28px;
+  font-size: 20px;
   font-weight: 700;
   margin: 38px 0;
 }
 
 .warranty-maintenance .left .content-warranty p {
-  font-size: 28px;
+  font-size: 20px;
 }
 .warranty-maintenance .left .content-warranty p.indent {
   text-indent: 20px;
@@ -218,13 +222,13 @@
 }
 
 .slice-list-car .swiper-slide .car .name {
-  font-size: 31px;
+  font-size: 20px;
   font-weight: 500;
   text-transform: uppercase;
   position: relative;
 }
 .slice-list-car .swiper-slide .car .price {
-  font-size: 25px;
+  font-size: 18px;
   font-weight: 400;
 }
 
@@ -238,34 +242,34 @@
   background-color: black;
 }
 
-.news .container {
-  width: 1500px;
+.news {
+  margin: 0 10%;
 }
 
-.news .container .list-new {
-  width: 1192px;
+.news .list-new {
+  width: 100%;
 }
 
-.news .container .title {
+.news .title {
   color: #032f4a;
-  font-size: 54px;
+  font-size: 30px;
   font-weight: 700;
   margin: 97px 0;
   text-transform: uppercase;
 }
 
-.news .container .content {
+.news .content {
   padding: 30px 0 30px 50px;
   border-top: 1px solid #707070;
 }
 
-.news .container .content p {
+.news .content p {
   font-weight: 400;
-  font-size: 30px;
+  font-size: 20px;
   line-height: 42px;
 }
 
-.news .container .content time {
+.news .content time {
   display: block;
   font-size: 16px;
   text-align: right;
@@ -273,12 +277,16 @@
 }
 
 /* content */
-
 .product-interface-content {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+  display: none;
+}
+
+.product-interface-content.active-products {
+  display: block;
 }
 
 .product-item-row {
@@ -347,7 +355,7 @@
   object-fit: contain;
 }
 .product-interface-content .product-items .product-result > p {
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 700;
   color: #fff;
   background: #032f4a;
@@ -373,7 +381,7 @@
   padding-left: 20px;
   font-weight: bold;
   cursor: pointer;
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 700;
 }
 
@@ -392,7 +400,7 @@
 }
 
 .indent > .commit {
-  font-size: 28px;
+  font-size: 20px;
   line-height: 40px;
   font-style: italic;
   margin-top: 100px;

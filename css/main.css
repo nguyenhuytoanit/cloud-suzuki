@@ -98,6 +98,7 @@
   margin: 40px auto 48px auto;
   display: flex;
   align-items: center;
+  position: relative;
 }
 
 .rolling-price .logo {
@@ -164,6 +165,10 @@
   color: #000;
   font-size: 18px;
   text-decoration: none;
+}
+
+.specifications-container .specification-options > a:hover {
+  color: #e21f26;
 }
 
 .specifications-container .specification-options > a.active {
