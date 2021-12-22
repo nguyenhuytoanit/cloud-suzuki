@@ -1,0 +1,43 @@
+@media only screen and (max-width: 1400px) {
+  .header .header-main .menu .menu-list {
+    display: none;
+  }
+
+  .header .header-main .menu-contact {
+    display: none;
+  }
+
+  .header .menu .list-menu {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    width: 100% !important;
+  }
+
+  .service-car .list-box-service .box-service-item .top > img {
+    width: 50%;
+    object-fit: cover;
+  }
+
+  .service-car .list-box-service .box-service-item .top a img {
+    object-fit: cover;
+    height: 431px;
+  }
+
+  .service-car .list-box-service .box-service-item a.button {
+    bottom: 20px;
+  }
+
+  .footer-column {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-column > div {
+    margin-top: 30px;
+  }
+}

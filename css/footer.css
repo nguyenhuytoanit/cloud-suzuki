@@ -42,7 +42,12 @@
   line-height: 25px;
 }
 
-.footer-column .store .content {
+.footer-column .store a {
+  display: block;
+  color: white;
+}
+
+.footer-column .store a.content {
   line-height: 25px;
   font-size: 18px;
 }

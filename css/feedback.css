@@ -55,11 +55,13 @@
 }
 select {
   -webkit-appearance: none;
+  color: gray;
 }
 
 .search-input {
   display: flex;
   justify-content: space-between;
+  position: relative;
 }
 
 .search-input label {
@@ -74,13 +76,60 @@ select {
 }
 
 .search-input label input,
-.search-input label select {
+.search-input label div {
   width: 100%;
   height: 100%;
   border: none;
   outline: none;
   padding-left: 10px;
   font-size: 20px;
+}
+
+.search-input label.card:hover ~ .select-option {
+  display: block;
+}
+
+.search-input label div p {
+  padding: 25px 0;
+  color: gray;
+}
+
+.search-input .select-option {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 579px;
+  height: 200px;
+  border-radius: 15px;
+  background: #032f4a;
+  z-index: 10;
+  color: white;
+  font-weight: 600;
+  font-size: 24px;
+  text-transform: uppercase;
+  padding: 25px;
+  display: none;
+}
+
+.search-input .select-option div {
+  margin-right: 50px;
+}
+
+.search-input .select-option ion-icon {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  color: white;
+}
+
+.search-input .select-option div a {
+  margin-bottom: 13px;
+  color: white;
+  display: block;
+}
+
+.search-input .select-option:hover {
+  display: flex;
 }
 
 .search-input label ion-icon {
@@ -116,6 +165,8 @@ select {
 
 .list-car .tab-list .tab-item.active {
   color: red;
+  border-bottom: 4px solid red;
+  padding: 0 5px;
 }
 
 .list-car .tab-list .tab-item:not(.list-car .tab-list .tab-item:last-child) {
@@ -205,9 +256,10 @@ select {
 
 .service-car .list-box-service .box-service-item .top img:nth-child(2) {
   height: 431px;
+  object-fit: cover;
 }
 
-.service-car .list-box-service .box-service-item .button {
+.service-car .list-box-service .box-service-item a.button {
   position: absolute;
   text-align: center;
   font-weight: 900;
@@ -215,7 +267,7 @@ select {
   bottom: 40px;
   left: 50%;
   transform: translateX(-50%);
-  color: "#032F4A";
+  color: #032f4a;
 }
 
 .service-car .list-box-service .box-service-item:nth-child(odd) .content {
