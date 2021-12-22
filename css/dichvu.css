@@ -126,6 +126,14 @@
   font-size: 24px;
 }
 
+.warranty-maintenance .left .tab-content {
+  display: none;
+}
+
+.warranty-maintenance .left .tab-content.active-tab {
+  display: block;
+}
+
 .warranty-maintenance .left .content-warranty h4 {
   font-size: 28px;
   font-weight: 700;
@@ -320,7 +328,7 @@
   flex-wrap: wrap;
 }
 
-.product-interface-content .product-items .product-result{
+.product-interface-content .product-items .product-result {
   width: 49%;
   margin-bottom: 50px;
 }
@@ -377,4 +385,19 @@
 .products-interface .menu-product-interface > li.active-option {
   color: red;
   border-bottom: 3px solid red;
+}
+
+.thumail-content {
+  margin-top: 50px;
+}
+
+.indent > .commit {
+  font-size: 28px;
+  line-height: 40px;
+  font-style: italic;
+  margin-top: 100px;
+}
+
+.content-warranty {
+  margin-bottom: 100px;
 }

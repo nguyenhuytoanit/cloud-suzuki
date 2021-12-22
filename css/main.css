@@ -183,6 +183,7 @@
   padding: 0 10px;
   list-style: none;
   padding-bottom: 400px;
+  display: none;
 }
 .specifications-container .specification-info > li {
   display: flex;
@@ -221,6 +222,10 @@
   > .sub-info
   > li:nth-last-child(-n + 1) {
   border-bottom: none;
+}
+
+.specifications-container .specification-info.active-content {
+  display: block;
 }
 
 .btn-red {

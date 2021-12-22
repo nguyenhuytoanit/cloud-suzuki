@@ -17,7 +17,11 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  /* display: none; */
+  display: none;
+}
+
+.product-interface-content > .active-product {
+  display: block;
 }
 
 .product-interface-content > .product-hide > p {
